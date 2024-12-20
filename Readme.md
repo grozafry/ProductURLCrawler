@@ -77,14 +77,3 @@ The crawler saves results in the `crawler_output` directory:
 - Rate limiting on certain e-commerce platforms can affect crawl speed
 - Some modern anti-bot systems might detect and block the crawler
 
-########
-
-1. regex
-
-2. Look for e-commerce specific terms like "Add to Cart", "Buy Now", "Price", "Reviews".
-
-3. Product pages are typically deeply nested in the site's hierarchy (home → category → product).
-Category pages have many child links, but product pages have few.
-Graph Representation: Represent the entire site as a graph, and product pages are typically leaf nodes in this graph.
-
-4. llm
